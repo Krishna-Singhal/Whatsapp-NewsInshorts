@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-news",
+  "version": "1.0.0",
+  "description": "Automated news sender on Whatsapp",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "getChatId": "node getChatId.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krishna-Singhal/Whatsapp-NewsInshorts.git"
+  },
+  "keywords": [
+    "Whatsapp-NewsInshorts",
+    "whatsapp-news"
+  ],
+  "author": "Krishna Singhal",
+  "license": "GNU v3",
+  "homepage": "https://github.com/Krishna-Singhal/Whatsapp-NewsInshorts#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "whatsapp-web.js": "^1.13.2"
+  }
+}
