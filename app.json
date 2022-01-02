@@ -12,21 +12,21 @@
     "env": {
       "SESSION": {
         "description": "https://github.com/tuhinpal/WhatsBot/wiki/Deploy-with-Heroku",
-        "value": "",
-        "required": "true"
+        "value": ""
       },
       "CHAT_ID": {
         "description": "Chat Id where bot will send news",
-        "value": "",
-        "required": "true"
+        "value": ""
       },
       "CATEGORY": {
         "description": "Category of news, defaults to all",
-        "value": "all"
+        "value": "all",
+        "required": "false"
       },
       "DELAY": {
         "description": "Delay of news automation in seconds, defaults to 150 seconds",
-        "value": ""
+        "value": "",
+        "required": "false"
       }
     }
   }
