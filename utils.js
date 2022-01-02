@@ -61,12 +61,11 @@ async function getNews(category) {
 
 async function sendNews(client, category) {
     var news = await getNews(category);
-    console.log(news);
-    if (Object.keys(news).length > 0) {
+    var keys = Object.keys(news);
+    if (keys.length > 0) {
         if (oldTime == null) {
-            oldTime = (Object.keys(news)).at(-1);
+            oldTime = keys.at(-1);
         } else {
-            keys = Object.keys(news);
             for (i=0; i<keys.length; i++) {
                 if (oldTime < keys[i]) {
                     var text = `*${news[keys[i]].title}*\n\n${news[keys[i]].content}\n\n*Read More:* ${news[keys[i]].url}\n\n*${news[keys[i]].datetime}*`;
