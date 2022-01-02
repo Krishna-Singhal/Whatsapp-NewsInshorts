@@ -52,6 +52,12 @@ This bot needs only 4 Environmental Variables:-
 
 ---
 
+## It needed a cron-job to keep the server alive
+
+Cron Job steps would be found [here](https://github.com/tuhinpal/WhatsBot/wiki/Deploy-with-Heroku#5-it-needed-a-cron-job--30-mins-to-keep-the-server-alive-follow-these-steps-).
+
+---
+
 ### Credits :
 
 - [Whatsapp Web JS](https://github.com/pedroslopez/whatsapp-web.js/ "Whatsapp Web JS") - This project is fully depended on this Library
@@ -59,4 +65,4 @@ This bot needs only 4 Environmental Variables:-
 
 :star: this repo and show some :heart: if you found this bot useful.
 
-# © [Krishna Singhal](https://t.me/Ks_Projects)
+# © [Krishna Singhal](https://telegram.dog/Ks_Projects)

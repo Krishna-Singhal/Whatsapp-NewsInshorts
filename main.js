@@ -30,7 +30,7 @@ client.on("disconnected", (reason) => {
 app.get("/", (req, res) => {
   res.send(
     '<h1>Whatsapp-NewsInshort Bot is Up and Running<h1><br>' + 
-    '<br>This Bot is a part of <a href="https://t.me/Ks_Projects">KS Projects</a>'
+    '<br>This Bot is a part of <a href="https://telegram.dog/Ks_Projects">KS Projects</a>'
   );
 });
 
