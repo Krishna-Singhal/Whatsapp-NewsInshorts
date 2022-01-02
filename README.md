@@ -25,20 +25,20 @@ This bot needs only 4 Environmental Variables:-
 
     Run following code in terminal.
 
-```shell
-git clone https://github.com/Krishna-Singhal/Whatsapp-NewsInshorts.git
+    ```shell
+    git clone https://github.com/Krishna-Singhal/Whatsapp-NewsInshorts.git
 
-cd Whatsapp-NewsInshorts
+    cd Whatsapp-NewsInshorts
 
-npm install
-```
+    npm install
+    ```
 
     Now get your session.json file and paste that file in root directory.
     Now run
 
-```shell
-npm run getChatId
-```
+    ```shell
+    npm run getChatId
+    ```
     Now send !getid in chat where you want to send automated News.
 
 3. CATEGORY
