@@ -26,7 +26,6 @@ async function getRawNews(category) {
 
 async function getNews(category) {
     var news = await getRawNews(category);
-    console.log(news);
     if (news.length > 0) {
         var newsData = [];
         for (var i = 0; i < news.length; i++) {
@@ -54,7 +53,6 @@ async function getNews(category) {
                 datetime: item[5]
             }
         })
-        console.log(newsSorted);
         return newsSorted;
     } else {
         return new Object();
@@ -65,7 +63,6 @@ async function sendNews(client, category) {
     var news = await getNews(category);
     console.log(news);
     if (Object.keys(news).length > 0) {
-        console.log(oldTime);
         if (oldTime == null) {
             oldTime = (Object.keys(news)).at(-1);
         } else {
