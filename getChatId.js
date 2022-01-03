@@ -12,7 +12,7 @@ client.on("ready", () => {
   console.log("To get CHAT_ID, send !getid in chat where you want to send news.")
 });
 
-client.on("message_create", async (message) => {
+client.on("message_create", async (msg) => {
     if (msg.fromMe && msg.body.startsWith("!getid")) {
         msg.reply("Below is the chat id of this chat.");
         msg.reply(msg.to);
