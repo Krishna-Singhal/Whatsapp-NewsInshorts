@@ -16,5 +16,7 @@ client.on("message_create", async (msg) => {
     if (msg.fromMe && msg.body.startsWith("!getid")) {
         msg.reply("Below is the chat id of this chat.");
         msg.reply(msg.to);
+      console.log("CHAT_ID generated successfully");
+      return;
     }
 });
