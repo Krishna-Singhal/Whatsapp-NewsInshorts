@@ -66,7 +66,7 @@ async function sendNews(client, category) {
         if (oldTime == null) {
             oldTime = keys[keys.length-1];
         } else {
-            for (i=0; i<keys.length; i++) {
+            for (i=0; i<=keys.length; i++) {
                 if (oldTime < keys[i]) {
                     var text = `*${news[keys[i]].title}*\n\n${news[keys[i]].content}\n\n*Read More:* ${news[keys[i]].url}\n\n*${news[keys[i]].datetime}*`;
                     let respoimage = await axios.get(news[keys[i]].imageUrl, { responseType: 'arraybuffer' }).catch(function(error) {
